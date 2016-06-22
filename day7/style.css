@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body {
+    background: #448e58;
+    color: #fff;
+}
+
+/*block level element의 특징*/
+/*부모 요소 영역만큼 가로 크기가 커진다*/
+/*요소의 높이는 부모와 상관없이 요소가 포함하는 자식 요소들의 크기에 좌우된다*/
+
+article {
+    border: 1px solid black;
+}
+
+article p {
+    line-height: 30px;
+}
+    
