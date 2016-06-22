@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <form name="register-form" action="#" method="GET">
+        
+        <fieldset>
+        <legend>필수 입</legend>
+        <div>
+         <label for="register-id">ID</label>
+         <input name="id" id="register-id" type="text" placeholder="madgb">
+        </div>
+        
+        <div>
+            <label for="register-email">E-mail</label>
+            <input type="email" id="register-email" placeholder="madgb@paran.com">
+        </div>
+        
+        <div>
+         <label for="register-pw">PW</label>
+         <input id="register-pw" type="password">
+        </div>
+        
+        <div><h2>Gender</h2></div>
+        
+        <div>
+        <label><input checked name="gender" value="1" type="radio">남성</label>
+        <label><input name="female" value="2" type="radio">여성</label>
+        </div>
+        
+        </fieldset>
+        
+        <div>
+            <h3>hobby</h3>
+            
+            <ul>
+             <li><lable><input type="checkbox" value="1" name="register-hobby" id="">1하기</lable></li>
+             <li><lable><input type="checkbox" value="2" name="register-hobby" id="">2하기</lable></li>
+             <li><lable><input type="checkbox" value="3" name="register-hobby" id="">3하기</lable></li>
+            </ul>
+        </div>
+        
+        <div>
+            <label for="register-upload">file</label>
+            <input multiple type="file" id="register=upload" name="register-upload">
+        </div>
+        
+        <textarea name="register-message" cols="50" rows="3"></textarea>
+        <hr>
+        <div>
+            <h2>직업</h2>
+            <select name="register-job">
+                <option value="">선택</option>
+                <option value="직장인">직장인</option>
+                 <optgroup label="student">
+                  <option value="학생">학생</option>
+                  <option value="전학생">전학생</option>
+                  <option value="유학생">유학생</option>
+                 </optgroup>
+                <option value="무직">무직</option>
+            </select>
+        </div>
+        
+        <input type="submit" value="전송">
+        <button type="reset">초기화</button>
+        
+        </form>
+    </body>
+</html>
